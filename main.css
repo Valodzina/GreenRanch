@@ -1,0 +1,89 @@
+
+body {
+  margin:  0px auto;
+  padding:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+  background-color:chocolate;
+ 
+}
+p, h1, h2, h3, h4, h5, .btn  {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  color:#270949;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    width: 1440px; 
+    margin: 0px auto 0px auto;
+  
+    background-color: #F7F7F7; 
+}
+footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    width: 1440px; 
+    margin: 0px auto 0px auto;
+   
+    background-color: #F7F7F7; 
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 1440px; 
+    margin: 0px auto 0px auto;    
+    background-color: #F7F7F7; 
+
+}
+div {
+  width:fit-content;
+}
+
+
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
