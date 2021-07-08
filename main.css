@@ -9,7 +9,7 @@ body {
   background-color:chocolate;
  
 }
-p, h1, h2, h3, h4, h5, .btn  {
+/* p, h1, h2, h3, h4, h5, .btn  {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
   color:#270949;
@@ -35,8 +35,8 @@ footer {
    
     background-color: #F7F7F7; 
 
-}
-header {
+} */
+/* header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +44,7 @@ header {
     margin: 0px auto 0px auto;    
     background-color: #F7F7F7; 
 
-}
-
+} */
 
 
 
@@ -82,17 +81,5 @@ header {
 .sticky + .content {
   padding-top: 60px;
 }
-
-
-.sticky {
-    position: sticky;
-    top: 0;
-    background: lightpink;
-  }
-
-body, header{
-    width: 100%;
-}
-
 
 
