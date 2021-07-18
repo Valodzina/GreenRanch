@@ -32,6 +32,20 @@ section {
   z-index: 1;
   min-width: 0;
 }
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.contact img {
+  border-radius: 50%;
+}
+.contact {
+  display: flex;
+  
+}
+
 
 footer {
   margin-top: 50px;
@@ -193,7 +207,7 @@ footer {
 	border-left: 10px solid transparent;
 }
 
-}
+
 
 
 
