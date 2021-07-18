@@ -153,7 +153,9 @@ footer {
   display: none;
 }
 
-.header_menu {
+.header_list>li{
+   
+  margin: 0px 10px 0px 0px;
 
 }
 .header_menu a {
@@ -163,7 +165,7 @@ footer {
   color:lawngreen;
 }
 .submenu_list {
-  /* display: none; */
+  display: none;
   min-width: 400px;
   position: absolute;
   left: 0;
@@ -179,7 +181,34 @@ footer {
   padding: 5px 10px;
 }
 
+.arrow {
+  display: none;
+	position: absolute;
+	right: 0;
+	top: 12px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #fff;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
 
+}
+
+
+
+
+body.mouse .header_list>li:hover .submenu_list {
+	display: block;
+}
+
+body.touch .submenu_list.open{
+	display: block;
+}
+
+body.touch .arrow {
+	display: block;
+}
 
 @media (max-width: 767px) {
   .body.lock {
@@ -254,15 +283,57 @@ footer {
   .header_list {
     display: block;
   }
-  .header_list li {
-    margin: 0px 0px 20px 0px;
-  }
-  
+
+
+	.header_list>li{
+		margin: 0px 0px 10px 0px;
+	}
+	.submenu_list{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	
+	.submenu_arrow.arrow {
+		right: 10px;
+		top: 15px;
+		border-bottom: none;
+		border-left: 10px solid transparent;
+		border-top: 10px solid #000;
+		border-right: 10px solid transparent;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
 }
+
+
+
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
