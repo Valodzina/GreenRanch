@@ -20,6 +20,10 @@ p, h1, h2, h3, h4, h5, .btn  {
   text-align: justify;
   color:#270949;
 }
+footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
+{
+  color: white;
+}
 
 section {
   padding-top: 80px;
@@ -37,6 +41,8 @@ section {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
  
 }
 .contact img {
@@ -47,6 +53,84 @@ section {
   justify-content: space-between;
 
 }
+
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto 0px auto;
+  color: #F7F7F7;
+  background-color: #333;
+
+}
+
+
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.header:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(198, 173, 216);
+  z-index: 2;
+
+}
+.header_body {
+
+  position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.rev_slider {
+  min-width: 0;
+}
+.slide {
+  min-width: 0;
+}
+
+
+
+.header_logo {
+  flex: 0 0 60px;
+  position: relative;
+  z-index: 3;
+  
+}
+.header_logo img {
+  max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+
+
+
 /* КНОПКА НАВЕРХ */
 .backtobegin {
   position: fixed;
@@ -93,130 +177,25 @@ section {
 
 }
 
-footer {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0px auto 0px auto;
-  background-color: #F7F7F7;
-  background-color: #333;
 
-}
-
-
-/* header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  margin: 0px auto 0px auto;    
-  background-color: #F7F7F7; 
-
-} */
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 50;
-}
-
-.header:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(198, 173, 216);
-  z-index: 2;
-
-}
-.header_body {
-
-  position:relative;
-  /* z-index: 10; */
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: space-between;
-  height: 80px;
-  align-items: center;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  min-width: 0;
-}
-
-.rev_slider {
-  min-width: 0;
-}
-.slide {
-  min-width: 0;
-}
-
-
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-  z-index: 999999;
-}
-
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-.header_list {
-  display: flex;
-  position: relative;
-  z-index: 2;
-}
-
+/* МЕНЮ */
 .header_list li {
   position: relative;
   list-style: none;
   margin: 0px 0px 0px 20px;
 }
-/* .header_list>li:hover .submenu_list{
-  display: block;
-  
-} */
-.header_logo {
-  flex: 0 0 60px;
+.header_list {
+  display: flex;
   position: relative;
-  z-index: 3;
-  
-}
-.header_logo img {
-  max-width: 100%;
-  border-radius: 50%;
-  overflow: hidden;
-  display: block;
+  z-index: 2;
+  transition: all 0.3s ease 0s;
 }
 .header_burger {
   display: none;
 }
-
 .header_list>li{
-   
+  transition: all 0.3s ease 0s;
   margin: 0px 10px 0px 0px;
-
 }
 .header_menu a {
   text-decoration: none;
@@ -230,17 +209,17 @@ footer {
   position: absolute;
   left: 0;
   top: 0;
+  padding: 30px 0px 0px 0px; 
+  transition: all 0.3s ease 0s;
   
-  padding: 30px 0px 0px 0px;
- 
 }
 .submenu_link {
   background-color: lightpink;
   min-width: 200px;
   display: inline-block;
   padding: 5px 10px;
+  
 }
-
 .arrow {
   display: none;
 	position: absolute;
@@ -251,31 +230,27 @@ footer {
 	border-top: 10px solid #fff;
 	border-right: 10px solid transparent;
 	border-left: 10px solid transparent;
+  transition: all 0.3s ease 0s;
 }
 .arrow.active{
 	transform: rotate(-180deg);
 }
-
-
-
-
-
 body.mouse .header_list>li:hover .submenu_list {
 	display: block;
+ 
 }
-
 body.touch .submenu_list.open{
 	display: block;
 }
-
 body.touch .arrow {
 	display: block;
 }
 
 @media (max-width: 767px) {
+
+  /* МЕНЮ */
   .body.lock {
     overflow: hidden;
-
   }
   .header_list {
 		display: block;
@@ -348,8 +323,6 @@ body.touch .arrow {
   .header_list {
     display: block;
   }
-
-
 	.header_list>li{
 		margin: 0px 0px 10px 0px;
 	}
@@ -359,8 +332,6 @@ body.touch .arrow {
 		left: 0;
 		top: 0;
 	}
-  
-	
 	.submenu_arrow.arrow {
 		right: 10px;
 		top: 15px;
@@ -372,20 +343,4 @@ body.touch .arrow {
 
   
 }
-
-
-
-
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
 
