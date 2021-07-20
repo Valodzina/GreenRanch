@@ -45,6 +45,27 @@ if(isMobile.any()){
 	body.classList.add('mouse');
 }
 
+
+
+function backtoTop () {
+    let button =$('.backtobegin');
+
+    $(window).on('scroll', () => {
+        if ($(this).scrollTop() >=50) {
+            button.fadeIn()
+        } else {
+            button.fadeOut();
+        }
+        button.on('click', (e) => {
+            e.preventDefault();
+            $('html').animate({scrollTop :0}, 700);
+
+        })
+
+    } )
+};
+
+backtoTop();
 // // When the user scrolls the page, execute myFunction
 // window.onscroll = function() {myFunction()};
 
