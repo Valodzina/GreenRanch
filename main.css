@@ -226,7 +226,7 @@ footer {
 }
 .submenu_list {
   display: none;
-  min-width: 400px;
+  min-width: 200px;
   position: absolute;
   left: 0;
   top: 0;
