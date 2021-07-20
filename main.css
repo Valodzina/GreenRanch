@@ -107,9 +107,21 @@ footer {
   min-width: 0;
 }
 
-.rev_slider {
+.rev_slider, .slider2 {
   min-width: 0;
 }
+ 
+.block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.arrow2, .arrow3, .arrow4 {
+  display: flex;
+  justify-content:space-around;
+
+}
+
 .slide {
   min-width: 0;
 }
