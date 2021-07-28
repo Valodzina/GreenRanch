@@ -129,19 +129,23 @@ footer {
 
 
 .header_logo {
-  flex: 0 0 60px;
+  flex: 0 0 100px;
   position: relative;
   z-index: 3;
   
 }
 .header_logo img {
   max-width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   overflow: hidden;
   display: block;
 }
 
-
+.btn {
+  width: 100px;
+  color: hotpink;
+  background-color: khaki;
+}
 
 /* КНОПКА НАВЕРХ */
 .backtobegin {
