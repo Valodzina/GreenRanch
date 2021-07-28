@@ -261,7 +261,9 @@ body.touch .submenu_list.open{
 body.touch .arrow {
 	display: block;
 }
-
+.less {
+  display: none;
+}
 @media (max-width: 767px) {
 
   /* МЕНЮ */
@@ -356,6 +358,12 @@ body.touch .arrow {
 		border-top: 10px solid #000;
 		border-right: 10px solid transparent;
 	}
+  .more {
+    display: none;
+  }
+  .less {
+    margin: 0px 0px 10px 0px;
+    display: flex;
 
   
 }
