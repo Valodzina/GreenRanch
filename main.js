@@ -4,6 +4,7 @@ $(function() {
         autoplay: true,
         autoplaySpeed:4000,
         arrows:false,
+        speed: 3000,
         
     })
 });

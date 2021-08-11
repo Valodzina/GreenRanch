@@ -1,3 +1,17 @@
+html, html a {
+  /*text-shadow: 1px 1px 1px rgba(0,0,0,0.004);*/
+   text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+
+}
+@media screen
+and (-webkit-min-device-pixel-ratio: 0)
+and (min-resolution: 0.001dpcm)
+and (prefers-color-scheme: dark) {
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+}
 *, *:before, *:after {
   padding: 0;
   margin: 0;
@@ -15,10 +29,14 @@ body {
   min-width: 0;
  
 }
-p, h1, h2, h3, h4, h5, .btn, a  {
-  font-family: 'Raleway', sans-serif;;
+p, h1, h2, h3, h4, h5, .btn, a, button  {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   text-align: justify;
-  color:#270949;
+  animation: none;
+
+  color:#53361b;
+  
 }
 footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
 {
@@ -194,6 +212,25 @@ footer {
   border-left: 5px solid wheat ;
 
 }
+
+
+.slick-active  {
+  
+  animation-fill-mode: forwards;
+
+}
+
+/* .slick-active .index-label {
+  
+ animation-fill-mode: forwards;
+
+}
+
+.slick-active .index-link {
+  
+  animation-fill-mode: forwards;
+
+} */
 
 .mainslider {
   position: relative;
