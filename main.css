@@ -4,6 +4,9 @@ html, html a {
   -webkit-font-smoothing: antialiased !important;
 
 }
+html {
+  scroll-behavior: smooth;
+  }
 @media screen
 and (-webkit-min-device-pixel-ratio: 0)
 and (min-resolution: 0.001dpcm)
@@ -30,9 +33,10 @@ body {
   width: 100%;
   background-color:chocolate;
   min-width: 0;
+  height: 100%;
  
 }
-p, h1, h2, h3, h4, h5, .btn, a, button  {
+p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   text-align: justify;
@@ -61,17 +65,29 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: greenyellow;
  
+}
+.contacts_part {
+  width: 100%;
+display: flex;
+  align-items:center;
+ 
+  flex-wrap: wrap;
+  
 }
 .contact img {
   border-radius: 50%;
 }
 .contact {
+  width: 300px;
   display: flex;
   justify-content: space-between;
+  margin: 30px;
 
 }
 
