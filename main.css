@@ -31,11 +31,12 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background-color:chocolate;
+  background-color:#F7F7F7;
   min-width: 0;
   height: 100%;
  
 }
+
 p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -45,11 +46,16 @@ p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   color:#53361b;
   
 }
+img {
+  width: 100%;
+}
 footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
 {
   color: white;
 }
-
+#training{
+  background-color: #e4f1d8;
+}
 section {
   padding-top: 80px;
   display: flex;
@@ -69,7 +75,7 @@ section {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: greenyellow;
+  background-color: #F7F7F7;
  
 }
 .contacts_part {
