@@ -13,7 +13,7 @@ and (min-resolution: 0.001dpcm)
 and (prefers-color-scheme: dark)
  {
   body {
-    text-rendering: optimizeLegibility !important;
+    
     -webkit-font-smoothing: antialiased;
 
   }
@@ -155,7 +155,7 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
-.arrow2, .arrow3, .arrow4 {
+.arrow2, .arrow3, .arrow4, .arrow5, .arrow6, .arrow7 {
   display: flex;
   justify-content:space-around;
 
