@@ -4,9 +4,9 @@ html, html a {
   -webkit-font-smoothing: antialiased !important;
 
 }
-html {
+/* html {
   scroll-behavior: smooth;
-  }
+  } */
 @media screen
 and (-webkit-min-device-pixel-ratio: 0)
 and (min-resolution: 0.001dpcm)
@@ -186,6 +186,11 @@ footer {
   background-color: khaki;
 }
 
+.textblock {
+  width: 90%;
+  margin-left: 5%;
+}
+
 /* КНОПКА НАВЕРХ */
 .backtobegin {
   position: fixed;
@@ -238,18 +243,6 @@ footer {
   animation-fill-mode: forwards;
 
 }
-
-/* .slick-active .index-label {
-  
- animation-fill-mode: forwards;
-
-}
-
-.slick-active .index-link {
-  
-  animation-fill-mode: forwards;
-
-} */
 
 .mainslider {
   position: relative;
