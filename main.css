@@ -263,7 +263,8 @@ footer {
 }
 .slogan h2 {
   font-size: 40px;
-  background-color: rgba(40, 40, 40, 0.1);
+  background-color: rgba(40, 40, 40, 0.2);
+  color: #F7F5DA;
 }
 /* МЕНЮ */
 .header_list li {
@@ -438,6 +439,12 @@ body.touch .arrow {
   .less {
     /* margin: 0px 0px 10px 0px; */
     display: flex;
+  }
+
+  .slogan h2 {
+    font-size: 32px;
+    
+  }
 
   
 }
