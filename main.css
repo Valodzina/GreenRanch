@@ -12,7 +12,7 @@ and (-webkit-min-device-pixel-ratio: 0)
 and (min-resolution: 0.001dpcm)
 and (prefers-color-scheme: dark)
  {
-  body {
+  body, section, div {
     
     -webkit-font-smoothing: antialiased;
 
@@ -95,6 +95,20 @@ display: flex;
   border-radius: 50%;
   width: 200px;
 }
+.horse img {
+  transition: all 0.7s ease-out ;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  }
+  
+ .horse img:hover{
+   transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  }
+
 .map {
   width: 95%;
 }
@@ -107,11 +121,20 @@ display: flex;
 
 }
 .horse {
-  width: 300px;
+  width: 200px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  /* padding-bottom: 40px; */
+  margin: 30px;
   /* background-color: aqua; */
   /* justify-content: center; */
+
+}
+
+.horse p {
+  text-align: center;
+  padding-top: 20px;
 
 }
 
@@ -209,6 +232,25 @@ footer {
   color: hotpink;
   background-color: khaki;
 }
+
+.more-btn {
+  font-size: 18px;
+  padding: 15px;
+  background-color: #ECC788;
+  border-radius: 3px;
+  transition: all 0.1s ease-out ;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+}
+.more-btn:hover {
+  font-size: 20px;
+  
+  background-color: #dda33f;
+  
+}
+
+
 
 .textblock {
   width: 90%;
