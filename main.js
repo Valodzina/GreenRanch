@@ -275,6 +275,98 @@ $(function() {
 });
 
 
+$(function() {
+    $('.slider8').slick({
+        // dots: false,
+        // autoplay: false,
+        // autoplaySpeed:4000,
+        arrows:true,
+        dots: false,
+        arrows: true,
+        appendArrows: $('.arrow8'),
+        prevArrow: '<button id="prev8" type="button" class="btn btn-juliet"><i class="fa fa-chevron-left" aria-hidden="true"></i> назад</button>',
+        nextArrow: '<button id="next8" type="button" class="btn btn-juliet"> вперед<i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: false,
+                    arrows: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            } ]
+        
+    }) 
+});
+
+
+
+
+$(function() {
+    $('.slider10').slick({
+        // dots: false,
+        // autoplay: false,
+        // autoplaySpeed:4000,
+        arrows:true,
+        dots: false,
+        arrows: true,
+        appendArrows: $('.arrow10'),
+        prevArrow: '<button id="prev10" type="button" class="btn btn-juliet"><i class="fa fa-chevron-left" aria-hidden="true"></i> назад</button>',
+        nextArrow: '<button id="next10" type="button" class="btn btn-juliet"> вперед<i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: false,
+                    arrows: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            } ]
+        
+    }) 
+});
+
+
 
 
 
