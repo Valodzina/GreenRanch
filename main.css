@@ -4,9 +4,7 @@ html, html a {
   -webkit-font-smoothing: antialiased !important;
 
 }
-/* html {
-  scroll-behavior: smooth;
-  } */
+
 @media screen
 and (-webkit-min-device-pixel-ratio: 0)
 and (min-resolution: 0.001dpcm)
@@ -24,7 +22,12 @@ and (prefers-color-scheme: dark)
   border: 0;
   box-sizing: border-box;
 }
-
+.logoo {
+  width: 40px;
+}
+/* .mainslider {
+  background-color:#e4f1d8;
+} */
 body {
   padding:0px;
   display: flex;
@@ -36,6 +39,11 @@ body {
   height: 100%;
  
 }
+/* .lii {
+  border-width: 2px;
+  border-color: #333;
+  border-left: #333 5px;
+} */
 
 p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   font-family: 'Raleway', sans-serif;
@@ -46,6 +54,19 @@ p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   color:#53361b;
   
 }
+
+h1, h2, h3, h4, h5  {
+  
+  font-weight: 700;
+  font-style: italic;
+ 
+
+  
+  
+}
+
+
+
 img {
   width: 100%;
 }
@@ -62,11 +83,36 @@ section {
   justify-content: center;
   width: 100%;
   margin: 0px auto 0px auto;
-  max-width: 1200px;
+  max-width: 1000px;
   background-color: #F7F7F7;
   z-index: 1;
   min-width: 0;
 }
+
+
+.sloga {
+  width: 100%;
+  min-width: 100%;
+  background-color: #076A09;
+
+}
+.sloga h2 {
+  font-family: 'Marck Script', cursive;
+  color: #F7F5DA;
+}
+.mainslider {
+  padding-top: 0px;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  margin: 0px auto 0px auto;
+  max-width: 1000px;
+  height: 80px;
+  padding-top: 20px;
+}
+
 .contacts {
   display: flex;
   flex-direction: column;
@@ -144,7 +190,7 @@ footer {
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   margin: 0px auto 0px auto;
   color: #F7F7F7;
@@ -179,7 +225,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   justify-content: space-between;
   height: 80px;
   align-items: center;
@@ -205,6 +251,9 @@ footer {
 .arrow2, .arrow3, .arrow4, .arrow5, .arrow6, .arrow7, .arrow8, .arrow9, .arrow10 {
   display: flex;
   justify-content:space-around;
+  background-color: none;
+  background:  url(photo/Arrowright.png) center center cover no-repeat fixed;
+
 
 }
 
@@ -230,7 +279,8 @@ footer {
 .btn {
   width: 100px;
   color: hotpink;
-  background-color: khaki;
+  background-color: none;
+  background:  url(photo/Arrowright.png) center center cover no-repeat fixed;
 }
 
 .more-btn {
@@ -311,6 +361,8 @@ footer {
 }
 
 .mainslider {
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 .slogan {
@@ -321,11 +373,11 @@ footer {
   z-index: 10000;
  
 }
-.slogan h2 {
+/* .slogan h2 {
   font-size: 40px;
   background-color: rgba(40, 40, 40, 0.2);
   color: #F7F5DA;
-}
+} */
 /* МЕНЮ */
 .header_list li {
   position: relative;
@@ -501,8 +553,13 @@ body.touch .arrow {
     display: flex;
   }
 
-  .slogan h2 {
-    font-size: 32px;
+  .wrapper {
+    
+    height: 30px;
+    padding-top: 0px;
+  }
+  .sloga h2 {
+    font-size: 14px;
     
   }
 
