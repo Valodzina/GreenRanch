@@ -111,6 +111,7 @@ section {
   max-width: 1000px;
   height: 80px;
   padding-top: 20px;
+  padding-left: 30px;
 }
 
 .contacts {
@@ -557,6 +558,7 @@ body.touch .arrow {
     
     height: 30px;
     padding-top: 0px;
+    padding-left: 10px;
   }
   .sloga h2 {
     font-size: 14px;
