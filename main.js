@@ -18,12 +18,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow2'),
-        prevArrow: '<button id="prev2" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next2" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev2" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next2" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -62,12 +62,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow3'),
-        prevArrow: '<button id="prev3" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next3" type="button" class="btn btnr"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev3" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next3" type="button" class="btn btnr"><i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -106,12 +106,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow4'),
-        prevArrow: '<button id="prev4" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next4" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev4" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next4" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -150,8 +150,8 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow5'),
-        prevArrow: '<button id="prev5" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next5" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev5" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next5" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -194,12 +194,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow6'),
-        prevArrow: '<button id="prev6" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next6" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev6" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next6" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -239,12 +239,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow7'),
-        prevArrow: '<button id="prev7" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next7" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev7" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next7" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -284,12 +284,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow8'),
-        prevArrow: '<button id="prev8" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next8" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev8" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next8" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -331,12 +331,12 @@ $(function() {
         dots: false,
         arrows: true,
         appendArrows: $('.arrow10'),
-        prevArrow: '<button id="prev10" type="button" class="btn btnl"><i class="fa fa-chevron-left" aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next10" type="button" class="btn btnr"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prev10" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
+        nextArrow: '<button id="next10" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
         infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -378,6 +378,20 @@ $(function() {
 
 $(document).ready(function() {
     $('.header_burger').click(function(event){
+        $('.header_burger,.header_menu').toggleClass('active');
+        $('.body').toggleClass('lock');
+    });
+
+});
+$(document).ready(function() {
+    $('.submenu_link').click(function(event){
+        $('.header_burger,.header_menu').toggleClass('active');
+        $('.body').toggleClass('lock');
+    });
+
+});
+$(document).ready(function() {
+    $('.header_link').click(function(event){
         $('.header_burger,.header_menu').toggleClass('active');
         $('.body').toggleClass('lock');
     });
