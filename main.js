@@ -320,8 +320,6 @@ $(function() {
 });
 
 
-
-
 $(function() {
     $('.slider10').slick({
         // dots: false,
@@ -365,11 +363,6 @@ $(function() {
         
     }) 
 });
-
-
-
-
-
 
 
 
@@ -450,3 +443,18 @@ function backtoTop () {
 
 backtoTop();
 
+
+$(document).ready(function () {
+	$('.nav a').click(function () {//выбрать ссылки из меню
+		var offset = $('.nav').innerHeight();//Высота меню, получаем динамически
+		var target = $(this).attr('href');//Сохраняем значение атрибута href
+        target= "#" +target.split("#")[1];
+
+		$('html, body').animate({
+			scrollTop: $(target).offset().top - offset -10//вычесть высоту меню
+		}, 500);//время анимации
+		$('.nav a').removeClass('active');//удалить класс active у всех пунктов меню
+		$(this).addClass('active');//добавить класс active активной ссылке
+		return false;
+	});
+});

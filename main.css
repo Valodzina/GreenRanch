@@ -60,7 +60,6 @@ p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   font-weight: 100;
   text-align: justify;
   animation: none;
-
   color:#53361b;
   padding-left: 5px;
   
@@ -109,6 +108,7 @@ ul, ol {
   width: 100%;
   min-width: 100%;
   background-color: #076A09;
+  /* background-color: #484826; */
 
 }
 .slogan h2 {
@@ -117,6 +117,7 @@ ul, ol {
 }
 .mainslider {
   padding-top: 0px;
+  /* font-weight: 900; */
 }
 .wrapper {
   display: flex;
@@ -148,7 +149,7 @@ ul, ol {
  
 }
 .contactsf_part {
-  background-color: cadetblue;
+  
   width: 100%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -157,7 +158,21 @@ ul, ol {
  
  
 }
-.contact img  {
+.contactsf_part__contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+  
+}
+
+.contactsf_part__contact p{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  
+  
+}
+.contact img, .contactsf_part__contact img  {
   border-radius: 50%;
   width: 100px;
 }
@@ -310,7 +325,7 @@ footer {
 
 }
 .border:hover {
-  border-bottom: 4px solid rgb(45, 143, 45);
+  border-bottom: 4px solid #076A09;
   
 
 
@@ -653,6 +668,7 @@ body.touch .arrow {
 
   }
 
+
   
 }
 @media (max-width: 426px) {
@@ -664,6 +680,12 @@ body.touch .arrow {
   .contacts_part {
     grid-template-columns: 100%;
 
+  }
+  .contactsf_part {
+   
+    grid-template-columns: 50% 50%;
+   
+   
   }
   .slogan h2 {
     font-size: 14px;
