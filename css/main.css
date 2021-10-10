@@ -75,10 +75,7 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
-ul {
-  list-style-image: url(GreenRanch/photo/podkow.png);
-  
-}
+
 
 
 
@@ -92,24 +89,23 @@ footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
 /* #training{
   background-color: #e4f1d8;
 } */
+.gray {
+  background-color: #EFEFEF;
+}
 section {
   padding-top: 60px;
   padding-bottom: 0px;
   display: flex;
-  /* flex-direction: column;
-  justify-content: center; */
-  /* flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column;
-  justify-content: center; */
   width: 100%;
   margin: 0px auto 0px auto;
   max-width: 1000px;
   background-color: #F7F7F7;
   z-index: 1;
   min-width: 0;
-  /* justify-content: center; */
+}
+
+ul {
+  list-style-image: url(photo/podkow.png); 
 }
 ul, li {
   max-width: 100%;
@@ -125,8 +121,6 @@ ul, ol {
   width: 100%;
   min-width: 100%;
   background-color: #076A09;
-  /* background-color: #484826; */
-
 }
 .slogan h2 {
   font-family: 'Marck Script', cursive;
@@ -248,23 +242,6 @@ footer {
 
 
 
-
-/* .btnl {
-  background:  url(photo/Arrowleft.png) ; 
-}
-.btnr {
-  background:  url(photo/Arrowright.png) ; 
-}
-.btn {
-  cursor: pointer;
-  width: 150px;
-  height: 30px;
-  background-size:contain;
-}
-.btn :hover {
- cursor: pointer;
-} */
-
 .more-a {
   margin: auto;
   text-decoration: none;
@@ -288,8 +265,6 @@ footer {
   -webkit-transition: all 0.1s ease-out;
 }
 .more-btn:hover {
-  /* font-size: 20px;
-   */
   background-color: #dda33f;
   cursor: pointer;
   
@@ -331,22 +306,13 @@ footer {
   .slogan h2 {
     font-size: 18px;  
   }
-  /* .wrapper {
-    
-    height: 30px;
-    padding-top: 20px;
-    padding-left: 10px;
-  } */
 
-  
 }
 @media (max-width: 426px) {
-
 
   .slogan h2 {
     font-size: 14px;
   }
-
   .wrapper {
     height: 30px;
     padding-top: 20px;

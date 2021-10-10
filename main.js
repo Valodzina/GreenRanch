@@ -11,15 +11,11 @@ $(function() {
 
 $(function() {
     $('.slider2').slick({
-        // dots: false,
-        // autoplay: false,
-        // autoplaySpeed:4000,
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow2'),
-        prevArrow: '<button id="prev2" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next2" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -55,15 +51,11 @@ $(function() {
 
 $(function() {
     $('.slider3').slick({
-        // dots: false,
-        // autoplay: false,
-        // autoplaySpeed:4000,
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow3'),
-        prevArrow: '<button id="prev3" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next3" type="button" class="btn btnr"><i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -99,15 +91,11 @@ $(function() {
 
 $(function() {
     $('.slider4').slick({
-        // dots: false,
-        // autoplay: false,
-        // autoplaySpeed:4000,
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow4'),
-        prevArrow: '<button id="prev4" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next4" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -149,9 +137,8 @@ $(function() {
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow5'),
-        prevArrow: '<button id="prev5" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next5" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -193,9 +180,8 @@ $(function() {
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow6'),
-        prevArrow: '<button id="prev6" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next6" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -228,7 +214,6 @@ $(function() {
         
     }) 
 });
-
 
 $(function() {
     $('.slider7').slick({
@@ -238,9 +223,8 @@ $(function() {
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow7'),
-        prevArrow: '<button id="prev7" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next7" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -273,7 +257,6 @@ $(function() {
         
     }) 
 });
-
 
 $(function() {
     $('.slider8').slick({
@@ -283,9 +266,8 @@ $(function() {
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow8'),
-        prevArrow: '<button id="prev8" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next8" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -319,7 +301,6 @@ $(function() {
     }) 
 });
 
-
 $(function() {
     $('.slider10').slick({
         // dots: false,
@@ -328,9 +309,8 @@ $(function() {
         arrows:true,
         dots: false,
         arrows: true,
-        appendArrows: $('.arrow10'),
-        prevArrow: '<button id="prev10" type="button" class="btn btnl"><i aria-hidden="true"></i> </button>',
-        nextArrow: '<button id="next10" type="button" class="btn btnr"> <i aria-hidden="true"></i></button>',
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
         infinite: false,
         speed: 300,
         slidesToShow: 3,
@@ -451,7 +431,7 @@ $(document).ready(function () {
         target= "#" +target.split("#")[1];
 
 		$('html, body').animate({
-			scrollTop: $(target).offset().top - offset -10//вычесть высоту меню
+			scrollTop: $(target).offset().top - 60//вычесть высоту меню
 		}, 500);//время анимации
 		$('.nav a').removeClass('active');//удалить класс active у всех пунктов меню
 		$(this).addClass('active');//добавить класс active активной ссылке
