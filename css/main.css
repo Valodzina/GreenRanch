@@ -74,6 +74,9 @@ p, h1, h2, h3, h4, h5, .btn, a, button, li  {
 h1, h2, h3, h4, h5 {
   text-align: center;
 }
+h2 {
+  font-size: 30px;
+}
 
 
 
@@ -82,9 +85,25 @@ h1, h2, h3, h4, h5 {
 img {
   width: 100%;
 }
-footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
+footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn, footer a
 {
   color: white;
+}
+
+.socialmedia {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-bottom: 30px; */
+
+}
+.socialmedia__element {
+  
+  align-self: center;
+  margin: 10px;
+  /* margin-bottom: 30px; */
+
 }
 /* #training{
   background-color: #e4f1d8;
@@ -112,6 +131,15 @@ ul, li {
 }
 ul, ol {
   padding-left: 30px;
+  
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ol_ul__margin {
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 
@@ -125,6 +153,7 @@ ul, ol {
 .slogan h2 {
   font-family: 'Marck Script', cursive;
   color: #F7F5DA;
+  font-size: 22px;
 }
 .mainslider {
   padding-top: 0px;
@@ -251,6 +280,7 @@ footer {
 .more-div {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .more-btn {
@@ -269,6 +299,8 @@ footer {
   cursor: pointer;
   
 }
+
+
 
 
 

@@ -9,7 +9,7 @@ $(function() {
     })
 });
 
-$(function() {
+$(function() { //training
     $('.slider2').slick({
         arrows:true,
         dots: false,
@@ -49,7 +49,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //walks
     $('.slider3').slick({
         arrows:true,
         dots: false,
@@ -89,7 +89,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //start study
     $('.slider4').slick({
         arrows:true,
         dots: false,
@@ -129,7 +129,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //photos
     $('.slider5').slick({
         // dots: false,
         // autoplay: false,
@@ -172,7 +172,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //excursion
     $('.slider6').slick({
         // dots: false,
         // autoplay: false,
@@ -215,7 +215,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //masterclass
     $('.slider7').slick({
         // dots: false,
         // autoplay: false,
@@ -258,7 +258,7 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //forkids
     $('.slider8').slick({
         // dots: false,
         // autoplay: false,
@@ -301,7 +301,51 @@ $(function() {
     }) 
 });
 
-$(function() {
+$(function() { //certificates
+    $('.slider9').slick({
+        // dots: false,
+        // autoplay: false,
+        // autoplaySpeed:4000,
+        arrows:true,
+        dots: false,
+        arrows: true,
+        prevArrow: "<img src='photo/left.svg' class='prev' alt='1'>",
+        nextArrow: "<img src='photo/right.svg' class='next' alt='2'>",
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: false,
+                    arrows: false,
+                    dots: false,
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: true,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            } ]
+        
+    }) 
+});
+
+$(function() { //stable
     $('.slider10').slick({
         // dots: false,
         // autoplay: false,
