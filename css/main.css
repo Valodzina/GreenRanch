@@ -58,13 +58,18 @@ body {
 p, h1, h2, h3, h4, h5, .btn, a, button, li  {
   -webkit-font-smoothing: antialiased;
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   text-align: justify;
   animation: none;
   color:#53361b;
   padding-left: 5px;
   
 }
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+
+}
+
 .main_h2 {
   font-size: 36px;
   font-weight: 500;
@@ -148,7 +153,7 @@ li {
   padding-bottom: 10px;
   width: 100%;
   min-width: 100%;
-  background-color: #076A09;
+  background-color: #28641E;
 }
 .slogan h2 {
   font-family: 'Marck Script', cursive;
