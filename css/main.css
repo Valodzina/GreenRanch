@@ -131,6 +131,7 @@ section {
 ul {
   list-style-image: url(photo/podkow.png); 
 }
+
 ul, li {
   max-width: 100%;
 }
@@ -145,6 +146,14 @@ li {
 .ol_ul__margin {
   margin-bottom: 15px;
   margin-top: 10px;
+}
+.gal {
+  list-style-image: url(photo/gal.png); 
+}
+.decimal ol, ol {
+   list-style-image: none; 
+  list-style-type: decimal;
+ 
 }
 
 
