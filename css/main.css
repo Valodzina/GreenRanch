@@ -155,6 +155,19 @@ li {
   list-style-type: decimal;
  
 }
+.listp0 li, .listp0{
+  padding-left: 0px;
+  
+  
+}
+.listm0 li {
+ margin-left: 0px;
+ 
+}
+.admargin {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
 
 
 .slogan {
