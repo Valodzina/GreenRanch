@@ -482,3 +482,33 @@ $(document).ready(function () {
 		return false;
 	});
 });
+
+
+
+
+
+
+
+$(document).ready(function () {
+	$('.linkk a').click(function () {//выбрать ссылки из меню
+		//var offset = $('.linkk').innerHeight();//Высота меню, получаем динамически
+		var target = $(this).attr('href');//Сохраняем значение атрибута href
+        target= "#" +target.split("#")[1];
+
+		$('html, body').animate({
+			scrollTop: $(target).offset().top - 100//вычесть высоту меню
+		}, 500);//время анимации
+		//$('.linkk a').removeClass('active');//удалить класс active у всех пунктов меню
+		//$(this).addClass('active');//добавить класс active активной ссылке
+		return false;
+	});
+});
+
+
+
+
+
+
+
+
+
