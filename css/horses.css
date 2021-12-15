@@ -6,6 +6,7 @@
     width: 100%;
     background-color: #F7F7F7;
   }
+ 
 
 
   .contacts_part {
@@ -79,11 +80,16 @@
     width: 310px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 30px;
   }
   /* .contact__main {
     width: ;
   } */
+
+  .contact__info {
+    width: 190px;
+  }
 
   .horse {
     width: 200px;

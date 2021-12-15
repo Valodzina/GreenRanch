@@ -84,11 +84,14 @@
   }
   .submenu_link {
     color:#F7F5DA;
-    background-color:rgba(40, 40, 40, 0.4);
+    background-color:rgba(40, 40, 40, 0.7);
     min-width: 250px;
     display: inline-block;
     padding: 5px 10px;
     
+  }
+  .submenu_link:hover, .header_link:hover{
+    color: #EFDB8C;
   }
   .arrow {
     display: none;
@@ -107,8 +110,14 @@
   }
   body.mouse .header_list>li:hover .submenu_list {
       display: block;
+      color: #EFDB8C;
    
   }
+  body.mouse .header_list>li:hover .header_link {
+   
+    color: #EFDB8C;
+ 
+}
   body.touch .submenu_list.open{
       display: block;
   }
