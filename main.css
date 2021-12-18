@@ -85,31 +85,21 @@ ul {
 img {
   width: 100%;
 }
-footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn
-{
+footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer .btn {
   color: white;
 }
-/* #training{
-  background-color: #e4f1d8;
-} */
+
 section {
   padding-top: 60px;
   padding-bottom: 0px;
   display: flex;
-  /* flex-direction: column;
-  justify-content: center; */
-  /* flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column;
-  justify-content: center; */
   width: 100%;
   margin: 0px auto 0px auto;
   max-width: 1000px;
   background-color: #F7F7F7;
   z-index: 1;
   min-width: 0;
-  /* justify-content: center; */
+  
 }
 ul, li {
   max-width: 100%;
@@ -118,15 +108,12 @@ ul, ol {
   padding-left: 30px;
 }
 
-
 .slogan {
   padding-top: 60px;
   padding-bottom: 10px;
   width: 100%;
   min-width: 100%;
   background-color: #076A09;
-  /* background-color: #484826; */
-
 }
 .slogan h2 {
   font-family: 'Marck Script', cursive;
@@ -134,20 +121,16 @@ ul, ol {
 }
 .mainslider {
   padding-top: 0px;
-  /* font-weight: 900; */
+  
 }
 .wrapper {
   display: flex;
-  /* justify-content: center; */
   width: 100%;
   margin: 0px auto 0px auto;
   max-width: 1000px;
-  /* height: 80px; */
   padding-top: 20px;
   padding-left: 30px;
 }
-
-
 
 .map {
   width: 95%;
@@ -191,33 +174,9 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* max-width: 100%;; */
+ 
   
 }
-/* .border {
-  
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(221, 197, 170);
-  
-  padding: 3px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  transition: all 0.3s ease 0s;
-  border-bottom: 4px solid rgb(221, 197, 170);
-
-}
-.border:hover {
-  border-bottom: 4px solid #076A09;
-  
-} */
-
-/* .arrow2, .arrow3, .arrow4, .arrow5, .arrow6, .arrow7, .arrow8, .arrow9, .arrow10 {
-  display: flex;
-  justify-content:space-around;
-  background-color: none;
-} */
-
 
 .prev,
 .next {
@@ -239,31 +198,9 @@ footer {
   cursor: pointer;
  }
 
-
-
-
 .slide {
   min-width: 0;
 }
-
-
-
-
-/* .btnl {
-  background:  url(photo/Arrowleft.png) ; 
-}
-.btnr {
-  background:  url(photo/Arrowright.png) ; 
-}
-.btn {
-  cursor: pointer;
-  width: 150px;
-  height: 30px;
-  background-size:contain;
-}
-.btn :hover {
- cursor: pointer;
-} */
 
 .more-a {
   margin: auto;
@@ -288,30 +225,22 @@ footer {
   -webkit-transition: all 0.1s ease-out;
 }
 .more-btn:hover {
-  /* font-size: 20px;
-   */
   background-color: #dda33f;
   cursor: pointer;
   
 }
-
-
 
 .textblock {
   width: 90%;
   margin-left: 5%;
 }
 
-
-
 .footer__link {
   width: 40px;
 }
 
 .slick-active  {
-  
   animation-fill-mode: forwards;
-
 }
 
 .mainslider {
@@ -331,12 +260,6 @@ footer {
   .slogan h2 {
     font-size: 18px;  
   }
-  /* .wrapper {
-    
-    height: 30px;
-    padding-top: 20px;
-    padding-left: 10px;
-  } */
 
   
 }
