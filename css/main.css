@@ -147,6 +147,19 @@ li {
   margin-bottom: 15px;
   margin-top: 10px;
 }
+
+.not-found-section {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.not-found-message {
+  margin-top: 10px;
+}
+
 .gal {
   list-style-image: url(../photo/check.svg);
 }
