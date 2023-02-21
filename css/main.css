@@ -129,7 +129,7 @@ section {
 }
 
 ul {
-  list-style-image: url(photo/podkow.png);
+  list-style-image: url(../photo/horseshoe.svg);
 }
 
 ul, li {
@@ -148,7 +148,7 @@ li {
   margin-top: 10px;
 }
 .gal {
-  list-style-image: url(photo/gal.png);
+  list-style-image: url(../photo/check.svg);
 }
 .decimal ol, ol {
    list-style-image: none;
