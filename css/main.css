@@ -55,7 +55,7 @@ body {
 }
 
 
-p, h1, h2, h3, h4, h5, .btn, a, button, li  {
+p, h1, h2, h3, h4, h5, .btn, a, button, li, table, td {
   -webkit-font-smoothing: antialiased;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
