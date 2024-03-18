@@ -1,0 +1,47 @@
+.mainblock-padding {
+    width: 100%;
+    padding: 10px;
+}
+
+table {
+    border: 2px solid #dedede;
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+    margin: 0;
+}
+
+td div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+tr:nth-child(2n) {
+    background-color: #dedede;
+}
+
+.temp {
+    display: grid;
+    grid-template-columns:  60% 40%;
+}
+
+.additional_margins {
+    margin: 10px 15px 15px;
+}
+
+
+@media (max-width: 767px) {
+    .temp {
+        grid-template-columns: 100%;
+    }
+
+    .additional_margins {
+        margin: 10px;
+    }
+}
